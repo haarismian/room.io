@@ -7,8 +7,7 @@
  */
 
 import React from 'react';
-import {Text} from 'react-native';
-import {StyleSheet} from 'react-native';
+import {StyleSheet, Text} from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
@@ -16,14 +15,19 @@ import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {mapping, light as lightTheme} from '@eva-design/eva';
 import {ApplicationProvider, Layout} from 'react-native-ui-kitten';
 
-const App = () => {
-  return (
-    <ApplicationProvider mapping={mapping} theme={lightTheme}>
-      <Layout style={{flex: 1}} />
-      <Text>test</Text>
-    </ApplicationProvider>
-  );
-};
+//Onboarding
+import Onboarding from './src/features/Onboarding';
+
+export default class App extends React.Component {
+  render() {
+    return (
+      <ApplicationProvider mapping={mapping} theme={lightTheme}>
+        <Layout style={{flex: 1}} />
+        <Onboarding />
+      </ApplicationProvider>
+    );
+  }
+}
 
 const styles = StyleSheet.create({
   scrollView: {
@@ -63,5 +67,3 @@ const styles = StyleSheet.create({
     textAlign: 'right',
   },
 });
-
-export default App;
