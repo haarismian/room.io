@@ -16,7 +16,7 @@ import {mapping, light as lightTheme} from '@eva-design/eva';
 import {ApplicationProvider, Layout} from 'react-native-ui-kitten';
 
 //Onboarding
-import Onboarding from './src/features/Onboarding';
+import Onboarding from './src/features/Onboarding/Onboarding';
 
 export default class App extends React.Component {
   render() {

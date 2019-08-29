@@ -1,0 +1,4 @@
+Fix the fact that it doesnt run
+roughly finish onboarding slider
+add login with facebook button
+add login with email button
