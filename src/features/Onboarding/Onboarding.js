@@ -3,7 +3,7 @@ import {StyleSheet, View, Text, Image} from 'react-native';
 import AppIntroSlider from 'react-native-app-intro-slider';
 
 //Components
-import FBLoginButton from '../../components/FBLoginButton'
+// import FBLoginButton from '../../components/FBLoginButton'
 
 const slides = [
   {
