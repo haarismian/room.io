@@ -1,4 +1,4 @@
+add login with facebook button - https://medium.com/react-native-training/facebook-sdk-with-login-for-react-native-apps-in-2018-196601804f66
 Fix the fact that it doesnt run
 roughly finish onboarding slider
-add login with facebook button
 add login with email button
